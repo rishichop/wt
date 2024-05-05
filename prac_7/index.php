@@ -168,7 +168,7 @@
                             <label for="recipient-name" class="col-form-label">Address:</label>
                             <input type="text" class="form-control" name="address">
                         </div>
-                        <button type="submit" class="btn btn-primary" name="adminlogin">Add Student</button>
+                        <button type="submit" class="btn btn-primary" name="adminlogin">Update Student</button>
                     </form>
                 </div>
                 <div class="modal-footer">
