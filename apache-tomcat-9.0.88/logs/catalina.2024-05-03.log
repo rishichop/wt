@@ -1,0 +1,48 @@
+03-May-2024 12:15:15.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+03-May-2024 12:15:15.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+03-May-2024 12:15:15.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+03-May-2024 12:15:15.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-May-2024 12:15:15.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-27-generic
+03-May-2024 12:15:15.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2024 12:15:15.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+03-May-2024 12:15:15.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+03-May-2024 12:15:15.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+03-May-2024 12:15:15.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rishi/apache-tomcat-9.0.88
+03-May-2024 12:15:15.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rishi/apache-tomcat-9.0.88
+03-May-2024 12:15:15.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rishi/apache-tomcat-9.0.88/conf/logging.properties
+03-May-2024 12:15:15.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2024 12:15:15.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-May-2024 12:15:15.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-May-2024 12:15:15.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-May-2024 12:15:15.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rishi/apache-tomcat-9.0.88
+03-May-2024 12:15:15.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rishi/apache-tomcat-9.0.88
+03-May-2024 12:15:15.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rishi/apache-tomcat-9.0.88/temp
+03-May-2024 12:15:15.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+03-May-2024 12:15:17.728 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2024 12:15:17.944 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3784] milliseconds
+03-May-2024 12:15:18.345 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2024 12:15:18.346 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+03-May-2024 12:15:18.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/ROOT]
+03-May-2024 12:15:19.531 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/ROOT] has finished in [1,106] ms
+03-May-2024 12:15:19.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/docs]
+03-May-2024 12:15:19.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/docs] has finished in [183] ms
+03-May-2024 12:15:19.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/manager]
+03-May-2024 12:15:20.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/manager] has finished in [489] ms
+03-May-2024 12:15:20.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/as_6]
+03-May-2024 12:15:22.372 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 12:15:22.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/as_6] has finished in [2,224] ms
+03-May-2024 12:15:22.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/host-manager]
+03-May-2024 12:15:22.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/host-manager] has finished in [240] ms
+03-May-2024 12:15:22.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/examples]
+03-May-2024 12:15:24.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishi/apache-tomcat-9.0.88/webapps/examples] has finished in [1,877] ms
+03-May-2024 12:15:24.646 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2024 12:15:24.866 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6914] milliseconds
+03-May-2024 12:18:57.883 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/rishi/apache-tomcat-9.0.88/webapps/as_10.war]
+03-May-2024 12:19:00.038 WARNING [Catalina-utility-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+03-May-2024 12:19:00.762 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 12:19:00.834 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/rishi/apache-tomcat-9.0.88/webapps/as_10.war] has finished in [2,951] ms
+03-May-2024 12:22:41.830 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-May-2024 12:22:41.832 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2024 12:22:41.845 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2024 12:22:42.353 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2024 12:22:42.419 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

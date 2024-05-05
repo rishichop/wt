@@ -1,0 +1,6 @@
+<!ELEMENT employee (entry)*>
+<!ELEMENT entry (srno, name, designation, salary)>
+<!ELEMENT srno (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT designation (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>

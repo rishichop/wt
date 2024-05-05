@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employee SYSTEM "employee.dtd">
+<?xml-stylesheet href="employee.xsl" type="text/xsl"?>
+<employee>
+    <entry>
+        <srno>1</srno>
+        <name>Rishikesh Chopade</name>
+        <designation>Boss</designation>
+        <salary>100000</salary>
+    </entry>
+    <entry>
+        <srno>2</srno>
+        <name>Prathamesh</name>
+        <designation>Employee</designation>
+        <salary>77000</salary>
+    </entry>
+    <entry>
+        <srno>3</srno>
+        <name>Omkar</name>
+        <designation>Employee</designation>
+        <salary>87000</salary>
+    </entry>
+    <entry>
+        <srno>4</srno>
+        <name>Jayesh</name>
+        <designation>Employee</designation>
+        <salary>100000</salary>
+    </entry>
+</employee>

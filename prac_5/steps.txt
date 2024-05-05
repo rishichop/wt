@@ -1,0 +1,18 @@
+# download default java
+sudo apt install default-jre
+sudo update-alternatives --config java
+
+# download maven
+wget https://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+tar -xvf apache-maven-3.6.3-bin.tar.gz
+mv apache-maven-3.6.3 /opt/
+
+# set env variables
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+export M2_HOME="/opt/apache-maven-3.6.3"
+export PATH="$PATH:$M2_HOME/bin"
+export CATALINA_HOME="apache-tomcat-9.0.88"
+source ~/.bashrc
+
+
+mvn executable path = /opt/apache-maven-3.6.3/bin/mvn
