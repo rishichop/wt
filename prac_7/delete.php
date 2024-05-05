@@ -62,12 +62,12 @@
             if(mysqli_query($conn, $sql)){  
             echo "<div class='alert alert-success' role='alert'>
         Delete Successful Thank you ! 
-        <a href='Index.php'> <button type='submit' class='btn btn-success'>Back To Home</button></a>
+        <a href='index.php'> <button type='submit' class='btn btn-success'>Back To Home</button></a>
         </div>";  
             }else{  
                 echo "<div class='alert alert-danger' role='alert'>
             Try Again Something went wrong ! May Already Register
-            <a href='Index.php'> <button type='submit' class='btn btn-success'>Back To Home</button></a>
+            <a href='index.php'> <button type='submit' class='btn btn-success'>Back To Home</button></a>
         </div> ";  
             }  
             
