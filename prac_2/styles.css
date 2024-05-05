@@ -9,9 +9,10 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('background.jpg'); /* Background image */
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* This keeps the background fixed while scrolling */
     color: wheat;
 }
 
@@ -43,6 +44,14 @@ nav ul li a {
     color: #fff;
 }
 
+.hero h1,
+.hero p,
+.hero .btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -54,11 +63,8 @@ nav ul li a {
 }
 
 .hero .btn {
-    display: inline-block;
     background-color: #d9534f;
     color: #fff;
-    padding: 0.8rem 2rem;
-    text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s;
 }
@@ -71,6 +77,14 @@ nav ul li a {
 .featured-items {
     padding: 4rem 0;
     text-align: center;
+}
+
+.featured-items h2,
+.featured-items p,
+.item h3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+    display: inline-block;
 }
 
 .featured-items h2 {
@@ -89,8 +103,8 @@ nav ul li a {
 }
 
 .item h3 {
-    margin-top: 1rem;
     font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .item p {
@@ -100,6 +114,9 @@ nav ul li a {
 .price {
     font-weight: bold;
     color: #d9534f;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 0.2rem 0.5rem; /* Adjust padding as needed */
+    border-radius: 4px; /* Optional: Adds rounded corners */
 }
 
 /* Footer styles */

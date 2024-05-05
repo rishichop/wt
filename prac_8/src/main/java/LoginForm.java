@@ -24,10 +24,6 @@ public class LoginForm extends ActionSupport {
             addActionError("Name is required.");
             return INPUT;
         }
-        
-        // Add other validations (mobile, email, etc.)
-
-        // If all validations pass, redirect to welcome page
         return SUCCESS;
     }
 }
